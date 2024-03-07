@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ru">
+    <html lang="ru" data-theme="light">
       <head>
         <link rel="shortcut icon" href="/favicon.ico" />
       </head>
