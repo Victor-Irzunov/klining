@@ -83,7 +83,7 @@ export default function Header() {
 								</li>
 							</ul>
 						</div>
-						<Image src='/logo/logo.webp' alt='логотип' width={180} height={47} />
+						<Image src='/logo/logo.webp' alt='логотип' className='sd:ml-0 xz:ml-3' width={150} height={47} />
 					</div>
 					<div className="navbar-center hidden sd:flex">
 						<ul className="menu menu-horizontal p-0 font-light">
@@ -153,7 +153,7 @@ export default function Header() {
 								<Image
 									src='/phone.svg'
 									alt='Телефон'
-									width={40} height={40}
+									width={45} height={45}
 									onClick={() => setIsActive(i => !i)}
 								/>
 								<div
