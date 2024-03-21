@@ -85,7 +85,7 @@ export default function Header() {
 						</div>
 						<Image src='/logo/logo.webp' alt='логотип' width={180} height={47} />
 					</div>
-					<div className="navbar-center hidden lg:flex">
+					<div className="navbar-center hidden sd:flex">
 						<ul className="menu menu-horizontal p-0 font-light">
 							<li>
 								<LinkScroll
@@ -144,16 +144,16 @@ export default function Header() {
 					</div>
 					<div className="navbar-end">
 
-						<div className='text-[#294B9B] flex-col items-end'>
-							<a href='tel:80292401583' className='font-bold sd:flex xz:hidden sd:text-xl xz:text-base'>
+						<div className='flex-col items-end'>
+							<a href='tel:80292401583' className='font-bold sd:block xz:hidden sd:text-xl xz:text-base'>
 								+375 29 240-15-83
 							</a>
 
 							<div className='sd:hidden xz:block relative'>
 								<Image
 									src='/phone.svg'
-									alt='80447505222'
-									width={60} height={60}
+									alt='Телефон'
+									width={40} height={40}
 									onClick={() => setIsActive(i => !i)}
 								/>
 								<div
@@ -182,7 +182,7 @@ export default function Header() {
 							</div>
 
 							<p className='font-light text-sm sd:block xz:hidden text-end'>
-								Пн-Вс 9:00 - 21:00
+								Пн-Вс 8:00 - 20:00
 							</p>
 						</div>
 					</div>
