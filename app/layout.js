@@ -8,7 +8,6 @@ export const metadata = {
   description: 'Надежная клининговая компания в Минске предоставляет высококачественные услуги по уборке квартир и офисов. Профессиональные уборщики, гибкая система скидок и доступные цены. Закажите у нас и наслаждайтесь чистотой!',
 }
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="ru" data-theme="light">

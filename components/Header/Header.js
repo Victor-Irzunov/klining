@@ -126,7 +126,7 @@ export default function Header() {
 									Преимущества
 								</LinkScroll>
 							</li>
-						
+
 							<li>
 								<LinkScroll
 									to="contacts"
@@ -143,17 +143,8 @@ export default function Header() {
 						</ul>
 					</div>
 					<div className="navbar-end">
-						<div className="dropdown dropdown-end">
-							<label tabIndex={0} className="btn">
-							{THEMES.length} Themes
-							</label>
-							<ul tabIndex={0} className="dropdown-content mt-1 w-80 max-h-96 overflow-y-auto menu menu-compact p-2  bg-base-200 shadow rounded-box">
-								{
-									THEMES.map((theme, i) => <li key={theme + i}><button data-set-theme={theme} onClick={handleThemeChange} className="font-medium capitalize">{i + 1 + '. ' + theme}</button></li>)
-								}
-							</ul>
-						</div>
-						{/* <div className='text-[#294B9B] flex-col items-end'>
+
+						<div className='text-[#294B9B] flex-col items-end'>
 							<a href='tel:80447505222' className='font-bold sd:flex xz:hidden sd:text-xl xz:text-base'>
 								+ 375 44 7-505-222
 							</a>
@@ -177,8 +168,8 @@ export default function Header() {
 									<p className='mt-2 pl-4 text-sm mb-1 pb-0'>
 										Телефон:
 									</p>
-									<a href='tel:80447505222' className='font-bold text-xl'>
-										+ 375 44 7-505-222
+									<a href='tel:80292401583' className='font-bold text-xl'>
+										+375 29 240-15-83
 									</a>
 
 									<p className='mt-4 pl-4 text-sm mb-0 pb-0'>
@@ -193,7 +184,7 @@ export default function Header() {
 							<p className='font-light text-sm sd:block xz:hidden text-end'>
 								Пн-Вс 9:00 - 21:00
 							</p>
-						</div> */}
+						</div>
 
 
 					</div>
