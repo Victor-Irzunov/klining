@@ -145,8 +145,8 @@ export default function Header() {
 					<div className="navbar-end">
 
 						<div className='text-[#294B9B] flex-col items-end'>
-							<a href='tel:80447505222' className='font-bold sd:flex xz:hidden sd:text-xl xz:text-base'>
-								+ 375 44 7-505-222
+							<a href='tel:80292401583' className='font-bold sd:flex xz:hidden sd:text-xl xz:text-base'>
+								+375 29 240-15-83
 							</a>
 
 							<div className='sd:hidden xz:block relative'>
@@ -176,7 +176,7 @@ export default function Header() {
 										Режим работы:
 									</p>
 									<p className='font-light text-sm pl-4'>
-										пн-вс 9:00-21:00
+										пн-вс 8:00-20:00
 									</p>
 								</div>
 							</div>
@@ -185,8 +185,6 @@ export default function Header() {
 								Пн-Вс 9:00 - 21:00
 							</p>
 						</div>
-
-
 					</div>
 				</div>
 			</div>
