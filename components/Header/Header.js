@@ -145,8 +145,8 @@ export default function Header() {
 					<div className="navbar-end">
 
 						<div className='flex-col items-end'>
-							<a href='tel:80292401583' className='font-bold sd:block xz:hidden sd:text-xl xz:text-base'>
-								+375 29 240-15-83
+							<a href='tel:+375336981431' className='font-bold sd:block xz:hidden sd:text-xl xz:text-base'>
+								+375 33 698-14-31
 							</a>
 
 							<div className='sd:hidden xz:block relative'>
@@ -168,8 +168,8 @@ export default function Header() {
 									<p className='mt-2 pl-4 text-sm mb-1 pb-0'>
 										Телефон:
 									</p>
-									<a href='tel:80292401583' className='font-bold text-xl'>
-										+375 29 240-15-83
+									<a href='tel:+375336981431' className='font-bold text-xl'>
+										+375 33 698-14-31
 									</a>
 
 									<p className='mt-4 pl-4 text-sm mb-0 pb-0'>

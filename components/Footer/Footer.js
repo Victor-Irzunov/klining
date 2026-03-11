@@ -78,8 +78,8 @@ export default function Footer() {
 				</div>
 
 				<div className='mt-4'>
-					<a href='tel:80292401583' className='btn btn-primary text-white text-xl'>
-						+375 29 240-15-83
+					<a href='tel:+375336981431' className='btn btn-primary text-white text-xl'>
+						+375 33 698-14-31
 					</a>
 				</div>
 
