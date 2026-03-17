@@ -1,7 +1,7 @@
 import Header from '@/components/Header/Header'
 import './globals.css'
 import Footer from '@/components/Footer/Footer'
-
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata = {
   title: 'Клининг в Минске | Уборка квартир и офисов по выгодным ценам',
@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="ru" data-theme="light">
       <head>
         <link rel="shortcut icon" href="/favicon.ico" />
+         <GoogleTagManager gtmId="GTM-T3N9GKTG" />
       </head>
       <body>
         <Header />
