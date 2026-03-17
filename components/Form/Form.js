@@ -17,7 +17,8 @@ const FormOrder = ({ selectedProduct, closeModal, setIsFormSubmitted }) => {
 
 		sendOrderTelegram(messageForm)
 			.then(data => {
-				if (data.ok) {
+				if (data?.ok) {
+					window.location.href = '/thank-you';
 					setIsFormSubmitted(true);
 					setTimeout(() => {
 						closeModal()
